@@ -1,0 +1,74 @@
+{
+  "name": "create-nuxt-electron-app",
+  "version": "0.1.0",
+  "description": "A simple starter project to get up and developing quickly with the blend of Nuxt and Electron JS for building a Native Desktop App on various OS Platforms like Windows, Linux and macOS using Electron Builder.",
+  "main": "main.js",
+  "author": "Souleh Shaikh <author.souleh@thegeekytutor.com>",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soulehshaikh99/create-nuxt-electron-app"
+  },
+  "bugs": {
+    "url": "https://github.com/soulehshaikh99/create-nuxt-electron-app/issues"
+  },
+  "build": {
+    "icon": "static/favicon.png",
+    "productName": "Nuxt and Electron App",
+    "files": [
+      "build/**/*",
+      "!build/favicon.png",
+      "main.js"
+    ]
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "electron": "wait-on http://localhost:3000 && electron .",
+    "electron-dev": "concurrently \"yarn dev\" \"yarn electron\"",
+    "preelectron-pack": "yarn generate",
+    "electron-pack": "electron-builder"
+  },
+  "dependencies": {
+    "electron-serve": "^1.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "electron": "^8.2.3",
+    "electron-builder": "^22.5.1",
+    "nuxt": "^2.0.0",
+    "wait-on": "^4.0.2"
+  },
+  "keywords": [
+    "application",
+    "concurrently",
+    "create-nuxt-app",
+    "cross-platform",
+    "css",
+    "desktop-app",
+    "electron-builder",
+    "electron-serve",
+    "electron",
+    "framework",
+    "html",
+    "installed-app",
+    "javascript-framework",
+    "javascript",
+    "linux",
+    "macos",
+    "native-app",
+    "npm",
+    "nuxt",
+    "nuxt-app",
+    "nuxt-starter",
+    "responsive-app",
+    "static-site-generator",
+    "wait-on",
+    "web-framework",
+    "windows",
+    "yarn"
+  ]
+}
