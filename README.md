@@ -1,5 +1,5 @@
 <div align="center">
-<img alt="Electron Vue" src="https://raw.githubusercontent.com/soulehshaikh99/repo-icons/master/svg/Electron_Nuxt.svg" width="60%" />
+<img alt="Electron Vue" src="https://raw.githubusercontent.com/soulehshaikh99/repo-icons/master/svg/Electron_Nuxt.svg" width="80%" />
 </div>
 <br />
 <div align="center">
