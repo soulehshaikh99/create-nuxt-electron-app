@@ -6,7 +6,7 @@
 */
 
 @media (min-width: 1281px) {
-  img {
+  .img {
     max-width: 60%;
   }
 }
@@ -17,7 +17,7 @@
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-  img {
+  .img {
     max-width: 65%;
   }
 }
@@ -28,7 +28,7 @@
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  img {
+  .img {
     max-width: 70%;
   }
 }
@@ -39,7 +39,7 @@
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  img {
+  .img {
     max-width: 80%;
   }
 }
@@ -50,21 +50,22 @@
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  img {
+  .img {
     max-width: 90%;
   }
 }
 </style>
 
 <div align="center">
-<img alt="Electron Vue" src="https://raw.githubusercontent.com/soulehshaikh99/repo/master/svg/Electron_Nuxt.svg" />
+<img class="img" alt="Electron Vue" src="https://raw.githubusercontent.com/soulehshaikh99/repo/master/svg/Electron_Nuxt.svg" />
 </div>
 <br />
 <div align="center">
 
 [![forthebadge](http://forthebadge.com/images/badges/built-by-developers.svg)](http://forthebadge.com)&nbsp;&nbsp;&nbsp;&nbsp;[![forthebadge](http://forthebadge.com/images/badges/makes-people-smile.svg)](http://forthebadge.com)<br />
 
-[![forthebadge](http://forthebadge.com/images/badges/uses-html.svg)](http://forthebadge.com)&nbsp;&nbsp;&nbsp;[![forthebadge](http://forthebadge.com/images/badges/uses-css.svg)](http://forthebadge.com)&nbsp;&nbsp;&nbsp;[![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com) 
+[![forthebadge](http://forthebadge.com/images/badges/uses-html.svg)](http://forthebadge.com)&nbsp;&nbsp;&nbsp;[![forthebadge](http://forthebadge.com/images/badges/uses-css.svg)](http://forthebadge.com)&nbsp;&nbsp;&nbsp;[![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com)
+
 </div>
 
 
