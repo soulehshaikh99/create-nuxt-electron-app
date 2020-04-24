@@ -1,7 +1,7 @@
 <link href="https://raw.githubusercontent.com/soulehshaikh99/repo/master/css/media-query.css" rel="stylesheet"></link>
 
 <div align="center">
-<img alt="Electron Vue" src="https://raw.githubusercontent.com/soulehshaikh99/repo-icons/master/svg/Electron_Nuxt.svg" />
+<img alt="Electron Vue" src="https://raw.githubusercontent.com/soulehshaikh99/repo/master/svg/Electron_Nuxt.svg" />
 </div>
 <br />
 <div align="center">
