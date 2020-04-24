@@ -1,4 +1,4 @@
-<style>
+<!-- <style>
 
 /* 
   ##Device = Desktops
@@ -54,7 +54,9 @@
     max-width: 90%;
   }
 }
-</style>
+</style> -->
+
+<link href="https://raw.githubusercontent.com/soulehshaikh99/repo/master/css/media-query.css" rel="stylesheet">
 
 <div align="center">
 <img class="img" alt="Electron Vue" src="https://raw.githubusercontent.com/soulehshaikh99/repo/master/svg/Electron_Nuxt.svg" />
