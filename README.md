@@ -61,20 +61,20 @@ $ yarn electron-pack # or npm run electron-pack
 
 ### 💫 Create this boilerplate from scratch (Manual Setup)
 
-#### 1) Download the app icon
-
-[favicon.png](https://raw.githubusercontent.com/soulehshaikh99/create-nuxt-electron-app/master/static/favicon.png) and place it in the static directory.
-
-#### 2) Create a nuxt.js project using scaffolding tool create-nuxt-app.
+#### 1) Create a nuxt.js project using scaffolding tool create-nuxt-app.
 ```bash
 $ yarn create nuxt-app create-nuxt-electron-app
 # npx create-nuxt-app create-nuxt-electron-app
 ```
 
-#### 3) Change Directory
+#### 2) Change Directory
 ```bash
 $ cd create-nuxt-electron-app
 ```
+
+#### 3) Download the app icon
+
+[favicon.png](https://raw.githubusercontent.com/soulehshaikh99/create-nuxt-electron-app/master/static/favicon.png) and place it in the static directory.
 
 #### 4) Move all dependencies to devDependencies using IDE / Text Editor
 
