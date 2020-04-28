@@ -1,8 +1,8 @@
 // Modules to control application life and create native browser window
-const {app, BrowserWindow } = require('electron');
+const { app, BrowserWindow } = require('electron');
 const path = require('path');
 const serve = require('electron-serve');
-const loadURL = serve({directory: 'build'});
+const loadURL = serve({ directory: 'build' });
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -12,7 +12,7 @@ function isDev() {
     return !app.isPackaged;
 }
 
-function createWindow () {
+function createWindow() {
     // Create the browser window.
     mainWindow = new BrowserWindow({
         width: 800,
@@ -20,18 +20,24 @@ function createWindow () {
         webPreferences: {
             nodeIntegration: true
         },
-		icon: isDev() ? `${path.join(process.cwd(), 'static/favicon.ico')}` : `${path.join(__dirname, 'build/favicon.ico')}`,
+        // Use this in development mode.
+        icon: isDev() ? path.join(process.cwd(), 'static/favicon.ico') : path.join(__dirname, 'build/favicon.ico'),
+        // Use this in production mode.
+        // icon: path.join(__dirname, 'build/favicon.ico'),
         show: false
     });
 
     // This block of code is intended for development purpose only.
     // Delete this entire block of code when you are ready to package the application.
-    if(isDev()) {
+    if (isDev()) {
         mainWindow.loadURL('http://localhost:3000/');
     } else {
         //Do not delete this statement, Use this piece of code when packaging app for production environment
-		loadURL(mainWindow);
+        loadURL(mainWindow);
     }
+    
+    // Uncomment the following line of code when app is ready to be packaged.
+    // loadURL(mainWindow);
 
     // Open the DevTools and also disable Electron Security Warning.
     // process.env['ELECTRON_DISABLE_SECURITY_WARNINGS'] = true;
