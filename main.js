@@ -21,7 +21,7 @@ function createWindow() {
             nodeIntegration: true
         },
         // Use this in development mode.
-        icon: isDev() ? path.join(process.cwd(), 'static/favicon.ico') : path.join(__dirname, 'build/favicon.ico'),
+        icon: isDev() ? path.join(process.cwd(), 'static/favicon.png') : path.join(__dirname, 'build/favicon.png'),
         // Use this in production mode.
         // icon: path.join(__dirname, 'build/favicon.ico'),
         show: false
