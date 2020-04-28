@@ -56,18 +56,23 @@ $ yarn electron-pack # or npm run electron-pack
 
 ### 💫 Create this boilerplate from scratch (Manual Setup)
 
-#### 1) Create a nuxt.js project using scaffolding tool create-nuxt-app.
+#### 1) Download the app icon
+
+<a href="https://raw.githubusercontent.com/soulehshaikh99/create-nuxt-electron-app/master/static/favicon.png" target="_blank">favicon.png</a>
+
+
+#### 2) Create a nuxt.js project using scaffolding tool create-nuxt-app.
 ```bash
 $ yarn create nuxt-app create-nuxt-electron-app
 # npx create-nuxt-app create-nuxt-electron-app
 ```
 
-#### 2) Change Directory
+#### 3) Change Directory
 ```bash
 $ cd create-nuxt-electron-app
 ```
 
-#### 3) Move all dependencies to devDependencies using IDE / Text Editor
+#### 4) Move all dependencies to devDependencies using IDE / Text Editor
 
 ```bash
 # You might have more dependencies than this, but put all of them
@@ -78,18 +83,18 @@ $ cd create-nuxt-electron-app
 }
 ```
 
-#### 4) Install Development Dependencies
+#### 5) Install Development Dependencies
 ```bash
 $ yarn add --dev electron electron-builder wait-on concurrently
 # npm i -D electron electron-builder wait-on concurrently
 ```
 
-#### 5) Install Production Dependency
+#### 6) Install Production Dependency
 ```bash
 $ yarn add electron-serve # or npm i electron-serve
 ```
 
-#### 6) Your dependencies might look like this
+#### 7) Your dependencies might look like this
 
 ```json
 "dependencies": {
@@ -104,13 +109,13 @@ $ yarn add electron-serve # or npm i electron-serve
 }
 ```
 
-#### 7) Create main.js file (serves as entry point for Electron App's Main Process)
+#### 8) Create main.js file (serves as entry point for Electron App's Main Process)
 ```bash
 $ notepad.exe main.js # Windows Users
 $ touch main.js # Linux and macOS Users
 ```
 
-#### 8) Paste the below code in main.js file
+#### 9) Paste the below code in main.js file
 ```js
 // Modules to control application life and create native browser window
 const { app, BrowserWindow } = require('electron');
@@ -194,7 +199,7 @@ app.on('activate', function () {
 // code. You can also put them in separate files and require them here.
 ```
 
-#### 9) Add electron, electron-dev, preelectron-pack and electron-pack scripts
+#### 10) Add electron, electron-dev, preelectron-pack and electron-pack scripts
 
 ```bash
 # Add this scripts
