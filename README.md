@@ -98,6 +98,25 @@ $ yarn add --dev electron electron-builder wait-on concurrently
 $ yarn add electron-serve # or npm i electron-serve
 ```
 
+#### 7) Add generate configuration in `nuxt.config.js` under default exported object.
+
+```bash
+# nuxt.config.js
+# This will make sure that the electron-builder and nuxt.js
+# has seperate directories for output.
+export default {
+  ...
+  ...
+  /*
+  ** Generate configuration
+  */
+  generate: {
+    dir: 'build'
+  }
+}
+
+```
+
 #### 7) Your dependencies might look like this
 
 ```json
