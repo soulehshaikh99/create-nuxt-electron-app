@@ -63,7 +63,7 @@ $ yarn electron-pack # or npm run electron-pack
 
 #### 1) Download the app icon
 
-[favicon.png](https://raw.githubusercontent.com/soulehshaikh99/create-nuxt-electron-app/master/static/favicon.png) and place it in the static directory.
+<a href="https://raw.githubusercontent.com/soulehshaikh99/create-nuxt-electron-app/master/static/favicon.png" download>favicon.png</a> and place it in the static directory.
 
 
 #### 2) Create a nuxt.js project using scaffolding tool create-nuxt-app.
