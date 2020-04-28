@@ -117,7 +117,7 @@ export default {
 
 ```
 
-#### 7) Your dependencies might look like this
+#### 8) Your dependencies might look like this
 
 ```json
 "dependencies": {
@@ -132,13 +132,13 @@ export default {
 }
 ```
 
-#### 8) Create main.js file (serves as entry point for Electron App's Main Process)
+#### 9) Create main.js file (serves as entry point for Electron App's Main Process)
 ```bash
 $ notepad.exe main.js # Windows Users
 $ touch main.js # Linux and macOS Users
 ```
 
-#### 9) Paste the below code in main.js file
+#### 10) Paste the below code in main.js file
 ```js
 // Modules to control application life and create native browser window
 const { app, BrowserWindow } = require('electron');
@@ -222,7 +222,7 @@ app.on('activate', function () {
 // code. You can also put them in separate files and require them here.
 ```
 
-#### 10) Add electron, electron-dev, preelectron-pack and electron-pack scripts
+#### 11) Add electron, electron-dev, preelectron-pack and electron-pack scripts
 
 ```bash
 # Add this scripts
@@ -243,7 +243,7 @@ app.on('activate', function () {
   "electron-pack": "electron-builder"
 }
 ```
-#### 11) Add the following Electron Configuration in package.json
+#### 12) Add the following Electron Configuration in package.json
 **Note:** build configuration is used by electron-builder, modify it if you wish to add more packaging and native distribution options for different OS Platforms.
 ```json
 "main": "main.js",
@@ -258,7 +258,7 @@ app.on('activate', function () {
 }
 ```
 
-#### 12) Test drive your app
+#### 13) Test drive your app
 ```bash
 # Run your app
 $ yarn electron-dev # or npm run electron-dev
