@@ -58,7 +58,7 @@ $ yarn electron-pack # or npm run electron-pack
 
 #### 1) Download the app icon
 
-<a href="https://raw.githubusercontent.com/soulehshaikh99/create-nuxt-electron-app/master/static/favicon.png" target="_blank">favicon.png</a>
+[favicon.png](https://raw.githubusercontent.com/soulehshaikh99/create-nuxt-electron-app/master/static/favicon.png)
 
 
 #### 2) Create a nuxt.js project using scaffolding tool create-nuxt-app.
@@ -249,4 +249,4 @@ $ yarn electron-pack # or npm run electron-pack
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 <br/>
 <h3>📋 License: </h3>
-Licensed under the <a href="https://github.com/soulehshaikh99/create-gatsby-nuxt-app/blob/master/LICENSE">MIT License</a>.
+Licensed under the <a href="https://github.com/soulehshaikh99/create-nuxt-app/blob/master/LICENSE">MIT License</a>.
