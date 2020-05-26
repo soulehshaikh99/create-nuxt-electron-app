@@ -36,11 +36,11 @@
     "electron-serve": "^1.0.0"
   },
   "devDependencies": {
-    "concurrently": "^5.1.0",
-    "electron": "^8.3.0",
-    "electron-builder": "^22.5.1",
-    "nuxt": "^2.0.0",
-    "wait-on": "^4.0.2"
+    "concurrently": "^5.2.0",
+    "electron": "^9.0.0",
+    "electron-builder": "^22.6.1",
+    "nuxt": "^2.12.2",
+    "wait-on": "^5.0.0"
   },
   "keywords": [
     "application",
