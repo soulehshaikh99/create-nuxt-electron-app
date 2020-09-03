@@ -68,6 +68,12 @@ typings/
 # nuxt.js build output
 .nuxt
 
+# Nuxt generate
+build
+
+# Electron Distribution
+dist
+
 # vuepress build output
 .vuepress/dist
 
@@ -80,17 +86,8 @@ typings/
 # Service worker
 sw.*
 
-# Vim swap files
-*.swp
-
-# Desktop Services Store on macOS
+# macOS
 .DS_Store
 
-# Commit Messages File
-create-nuxt-electron-app-commits.txt
-
-# Nuxt generate
-build
-
-# Electron Distribution
-dist
+# Vim swap files
+*.swp
