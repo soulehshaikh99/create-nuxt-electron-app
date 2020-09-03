@@ -74,6 +74,9 @@ build
 # Electron Distribution
 dist
 
+# Project Build Automation Directory
+private
+
 # vuepress build output
 .vuepress/dist
 
